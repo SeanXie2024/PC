@@ -6,10 +6,12 @@ VAR
 	iA: INT;
 	iB: INT;
 	iC: INT;
+	
+	fb_add1: FB_Add;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[ fb_add1(iIn1:= iA, iIn2:= iB, iOut=> iC);]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
